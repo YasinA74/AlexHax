@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+header {
+  background: linear-gradient(to right, #4CAF50, #008CBA);
+  color: white;
+  padding: 40px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+h2 {
+  color: #4CAF50;
+  margin-bottom: 20px;
+  font-size: 2.2em;
+}
+
+#when-where p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+#schedule table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 700px;
+}
+#schedule th, #schedule td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  font-size: 1.1em;
+}
+
+#schedule th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#partners .partners-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#partners img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+#partners img:hover {
+  transform: scale(1.1);
+}
+
+#registration button {
+  padding: 15px 30px;
+  font-size: 1.3em;
+  color: white;
+  background: linear-gradient(to right, #4CAF50, #008CBA);
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease-in-out;
+}
+
+#registration button:hover {
+  background: linear-gradient(to right, #45a049, #007bb5);
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+}
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
